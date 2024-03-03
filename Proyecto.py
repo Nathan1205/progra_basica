@@ -15,7 +15,7 @@ while opcion != "5":
     opcion = input("Seleccione una opción: ")
 
     if opcion == "1":
-        print("Somos una empresa llamada Maracusa S.A")#Hay que agregar info ser creativos segun el documento 
+        print("""Maracacusa S.A es una empresa enfocada en la venta y reparación de computadoras y sus perifericos.\nFundación:11/04/2000?\nFundador:Tony Stark\nNuestro lema:"Potencia tu juego, equipa tu victoria.""")##Hay que agregar info ser creativos segun el documento 
 
     #Acceso al menu de admin 
     elif opcion == "2":
@@ -31,3 +31,6 @@ while opcion != "5":
 
     elif opcion == "3":
         print("¡Hasta luego!")
+
+    else:
+        print("Por favor intente de nuevo con las opciones sugeridas.")
