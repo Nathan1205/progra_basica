@@ -10,7 +10,7 @@ clave = ""
 #Iniciar un bucle de menu
 while opcion != "5":
     print("1. Informacion sobre Maracusa S.A")
-    print("2. Inicio de secion")
+    print("2. Inicio de sesion")
     print("3. Salir")
     opcion = input("Seleccione una opción: ")
 
@@ -28,9 +28,9 @@ while opcion != "5":
                 print("Ingrese un usuario correcto")
                
 
-
+    #Al presionar 3 termina el programa
     elif opcion == "3":
         print("¡Hasta luego!")
-
+        break
     else:
         print("Por favor intente de nuevo con las opciones sugeridas.")
